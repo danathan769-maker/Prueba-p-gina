@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO: Página 2 tiene canonical propio y robots noindex para evitar duplicate content -->
+  <title>Más Artículos sobre Roblox — Página 2 | RBLXNews</title>
+  <meta name="description" content="Guías avanzadas sobre Roblox: domina Blox Fruits, gana en el Tradings de Adopt Me, juegos de terror, anime en Roblox, construcción en Studio y economía de Robux. Página 2 de RBLXNews." />
+  <link rel="canonical" href="https://rblxnews.github.io/index-2.html" />
+  <link rel="prev" href="https://rblxnews.github.io/index.html" />
+  <link rel="next" href="https://rblxnews.github.io/index-3.html" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="Más Artículos sobre Roblox — Página 2 | RBLXNews" />
+  <meta property="og:description" content="Guías, análisis y tutoriales avanzados sobre Roblox para la comunidad hispanohablante. Blox Fruits, terror, anime, Studio y más." />
+  <meta property="og:url"         content="https://rblxnews.github.io/index-2.html" />
+  <meta property="og:image"       content="https://rblxnews.github.io/img/banner.jpg" />
+  <meta property="og:site_name"   content="RBLXNews" />
+  <meta property="og:locale"      content="es_CO" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Más Artículos — Página 2 | RBLXNews" />
+  <meta name="twitter:description" content="Guías avanzadas sobre Roblox en español: Blox Fruits, terror, anime, Studio, economía y mucho más." />
+  <meta name="twitter:image"       content="https://rblxnews.github.io/img/banner.jpg" />
+
+  <!-- Schema.org — CollectionPage para que Google entienda la paginación -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Más Artículos sobre Roblox — Página 2",
+    "description": "Guías, análisis y tutoriales avanzados sobre Roblox para la comunidad hispanohablante.",
+    "url": "https://rblxnews.github.io/index-2.html",
+    "inLanguage": "es",
+    "isPartOf": { "@type": "WebSite", "name": "RBLXNews", "url": "https://rblxnews.github.io/" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "RBLXNews",
+      "logo": { "@type": "ImageObject", "url": "https://rblxnews.github.io/img/logo.png" }
+    }
+  }
+  </script>
+
+  <!-- Fuentes y estilos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="theme.css" />
+
+  <!-- Anti-flash de tema oscuro -->
+  <script>(function(){var t=null;try{t=localStorage.getItem('rblxnews_theme');}catch(e){}if(t==='dark'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.classList.add('dark');}})();</script>
+
+  <!-- CSS exclusivo de paginación: no modifica theme.css -->
+  <style>
+    /* ── PAGINACIÓN ───────────────────────────────────────────── */
+    .pagination-container {
+      display:         flex;
+      align-items:     center;
+      justify-content: center;
+      gap:             6px;
+      margin:          36px 0 8px;
+      flex-wrap:       wrap;
+    }
+    .page-btn {
+      display:          inline-flex;
+      align-items:      center;
+      justify-content:  center;
+      min-width:        40px;
+      height:           40px;
+      padding:          0 10px;
+      border-radius:    var(--r-sm, 8px);
+      background:       var(--card-bg, #1e1e2e);
+      border:           1px solid var(--border, #2a2a3e);
+      color:            var(--text-primary, #e8e8f2);
+      font-family:      'Nunito', sans-serif;
+      font-size:        14px;
+      font-weight:      800;
+      text-decoration:  none;
+      transition:       background .15s, border-color .15s, color .15s, transform .12s;
+      cursor:           pointer;
+      user-select:      none;
+    }
+    .page-btn:hover {
+      background:      var(--red, #E8192C);
+      border-color:    var(--red, #E8192C);
+      color:           #fff;
+      transform:       translateY(-2px);
+      text-decoration: none;
+    }
+    .page-btn.active {
+      background:    var(--red, #E8192C);
+      border-color:  var(--red, #E8192C);
+      color:         #fff;
+      cursor:        default;
+      pointer-events: none;
+    }
+    .page-btn.prev-btn,
+    .page-btn.next-btn {
+      font-size: 18px;
+      padding:   0 14px;
+    }
+    .page-dots {
+      color:       var(--text-muted, #7878a0);
+      font-weight: 800;
+      font-size:   16px;
+      line-height: 40px;
+      padding:     0 4px;
+      user-select: none;
+    }
+
+    /* ── BREADCRUMB DE PAGINACIÓN ─────────────────────────────── */
+    .page-breadcrumb {
+      font-size:     13px;
+      color:         var(--text-muted, #7878a0);
+      margin-bottom: 4px;
+      padding:       0 4px;
+    }
+    .page-breadcrumb a {
+      color:           var(--text-muted, #7878a0);
+      text-decoration: none;
+    }
+    .page-breadcrumb a:hover { color: var(--red, #E8192C); }
+    .page-breadcrumb strong  { color: var(--text-primary, #e8e8f2); }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════
+     NAV — idéntico a index.html
+══════════════════════════════════════════════════════════════ -->
+<nav class="main-nav" role="navigation" aria-label="Navegación principal">
+  <a href="index.html" class="nav-logo-link" aria-label="RBLXNews — Inicio">
+    <img src="img/logo.png" alt="RBLXNews Logo" class="main-logo" />
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Inicio</a>
+    <a href="articulo-5-codigos.html">Códigos</a>
+    <a href="articulo-7-eventos.html">Eventos</a>
+    <a href="articulo-4-avatares.html">Avatares</a>
+    <a href="articulo-1-roleplay.html">Roleplay</a>
+    <a href="articulo-3-seguridad.html">Seguridad</a>
+  </div>
+  <button class="theme-toggle" aria-label="Cambiar modo oscuro/claro">
+    <div class="toggle-track" aria-hidden="true"><div class="toggle-knob"></div></div>
+    <span class="toggle-label">🌙 Modo Oscuro</span>
+  </button>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════════════
+     CATEGORÍAS — igual que index.html (sin Hero ni Banner)
+══════════════════════════════════════════════════════════════ -->
+<section class="cats-section" aria-label="Categorías" style="padding-top:28px;">
+  <div class="container">
+    <nav class="cats-row" aria-label="Navegar por categoría">
+      <a href="articulo-5-codigos.html"      class="cat-pill"><span class="cpico">🎟️</span><span class="cpname">Códigos</span></a>
+      <a href="articulo-7-eventos.html"      class="cat-pill"><span class="cpico">🎪</span><span class="cpname">Eventos</span></a>
+      <a href="articulo-4-avatares.html"     class="cat-pill"><span class="cpico">👗</span><span class="cpname">Avatares</span></a>
+      <a href="articulo-1-roleplay.html"     class="cat-pill"><span class="cpico">🎭</span><span class="cpname">Roleplay</span></a>
+      <a href="articulo-3-seguridad.html"    class="cat-pill"><span class="cpico">🛡️</span><span class="cpname">Seguridad</span></a>
+      <a href="articulo-9-monetizacion.html" class="cat-pill"><span class="cpico">💰</span><span class="cpname">Dinero</span></a>
+    </nav>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     ARTÍCULOS 11–20 + SIDEBAR
+══════════════════════════════════════════════════════════════ -->
+<section aria-labelledby="news-heading-p2">
+  <div class="container">
+
+    <div class="section-head">
+      <h2 id="news-heading-p2">Más Artículos</h2>
+      <span class="s-tag">Página 2</span>
+    </div>
+
+    <div class="content-layout">
+
+      <!-- ── COLUMNA DE ARTÍCULOS ──────────────────────────── -->
+      <div>
+
+        <!-- Breadcrumb de paginación -->
+        <p class="page-breadcrumb">
+          <a href="index.html">Inicio</a> › <strong>Página 2 de 9</strong>
+        </p>
+
+        <div class="articles-grid" role="list">
+
+          <!-- ═══ ARTÍCULO 11 — FEATURED ═══════════════════════
+               Tema: Guía de Blox Fruits (el juego más jugado)
+               Long-tail: "guia completa blox fruits 2026 principiantes"
+          ══════════════════════════════════════════════════════ -->
+          <a href="articulo-11-guia-blox-fruits.html" class="article-card featured" role="listitem">
+            <img
+              src="img/articulo-11.jpg"
+              alt="Guía completa de Blox Fruits en Roblox para principiantes y avanzados 2026"
+              class="card-img"
+              width="230" height="180"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <span class="card-cat" style="color:var(--red);">⚔️ Guías</span>
+              <h3>Guía completa de Blox Fruits 2026: mazmorras, frutas y cómo llegar al Mar 3 rápido</h3>
+              <p class="card-excerpt">Todo lo que necesitas saber para progresar en Blox Fruits: qué frutas son las mejores para el PvP, cómo farmear XP eficientemente y la ruta más rápida para desbloquear el Tercer Mar.</p>
+              <div class="card-meta"><span>📅 04 Abr 2026</span><span>📖 12 min</span></div>
+              <span class="read-more">Leer artículo</span>
+            </div>
+          </a>
+
+          <!-- ═══ ARTÍCULO 12 ════════════════════════════════════
+               Tema: Trading en Adopt Me! (economía de mascotas)
+               Long-tail: "como tradear adopt me sin ser estafado"
+          ══════════════════════════════════════════════════════ -->
+          <a href="articulo-12-trading-adopt-me.html" class="article-card" role="listitem">
+            <img
+              src="img/articulo-12.jpg"
+              alt="Cómo hacer trading seguro en Adopt Me sin ser estafado"
+              class="card-img"
+              width="400" height="160"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <span class="card-cat" style="color:var(--yellow);">🐾 Adopt Me</span>
+              <h3>Cómo hacer trading en Adopt Me! sin ser estafado: guía de valores 2026</h3>
+              <p class="card-excerpt">Aprende a identificar intercambios justos, consultar las tablas de valor actualizadas y las estafas más comunes que circulan en los servidores de trading en 2026.</p>
+              <div class="card-meta"><span>📅 03 Abr 2026</span><span>📖 9 min</span></div>
+              <span class="read-more">Leer artículo</span>
+            </div>
+          </a>
+
+          <!-- ═══ ARTÍCULO 13 ════════════════════════════════════
+               Tema: Top juegos de terror en Roblox
+               Long-tail: "mejores juegos de terror roblox 2026"
+          ══════════════════════════════════════════════════════ -->
+          <a href="articulo-13-juegos-terror-roblox.html" class="article-card" role="listitem">
+            <img
+              src="img/articulo-13.jpg"
+              alt="Los mejores juegos de terror y horror en Roblox 2026"
+              class="card-img"
+              width="400" height="160"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <span class="card-cat" style="color:var(--red);">👻 Terror</span>
+              <h3>Los 10 mejores juegos de terror en Roblox en 2026: de los más escalofriantes a los más populares</h3>
+              <p class="card-excerpt">Desde Doors hasta The Mimic, repasamos los juegos de miedo más jugados de Roblox este año: qué los hace aterradores, su dificultad y si son aptos para jugar solo o en grupo.</p>
+              <div class="card-meta"><span>📅 02 Abr 2026</span><span>📖 8 min</span></div>
+              <span class="read-more">Leer artículo</span>
+            </div>
+          </a>
+
+          <!-- ═══ ARTÍCULO 14 ════════════════════════════════════
+               Tema: Juegos de anime en Roblox
+               Long-tail: "mejores juegos anime roblox 2026 dragon ball naruto"
+          ══════════════════════════════════════════════════════ -->
+          <a href="articulo-14-juegos-anime-roblox.html" class="article-card" role="listitem">
+            <img
+              src="img/articulo-14.jpg"
+              alt="Los mejores juegos de anime en Roblox 2026 Dragon Ball Naruto One Piece"
+              class="card-img"
+              width="400" height="160"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <span class="card-cat" style="color:var(--blue);">⛩️ Anime</span>
+              <h3>Los mejores juegos de anime en Roblox 2026: Dragon Ball, Naruto, One Piece y más</h3>
+              <p class="card-excerpt">Analizamos los simuladores de anime más completos de Roblox: sistemas de progresión, qué tan fieles son al anime original y cuáles tienen las comunidades más activas en español.</p>
+              <div class="card-meta"><span>📅 02 Abr 2026</span><span>📖 10 min</span></div>
+              <span class="read-more">Leer artículo</span>
+            </div>
+          </a>
+
+          <!-- ═══ ARTÍCULO 15 ════════════════════════════════════
+               Tema: Cómo conseguir Robux gratis de forma legítima
+               Long-tail: "como conseguir robux gratis legalmente sin generadores"
+          ══════════════════════════════════════════════════════ -->
+          <a href="articulo-15-robux-gratis-legitimo.html" class="article-card" role="listitem">
+            <img
+              src="img/articulo-15.jpg"
+              alt="Cómo conseguir Robux gratis de forma legítima sin generadores falsos"
+              class="card-img"
+              width="400" height="160"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <span class="card-cat" style="color:var(--green);">💎 Robux</span>
+              <h3>Cómo conseguir Robux gratis de forma legítima en 2026: métodos reales sin generadores</h3>
+              <p class="card-excerpt">Concursos oficiales, afiliados de Microsoft Rewards, venta de ropa UGC y eventos de temporada: los únicos métodos reales para obtener Robux sin pagar y sin arriesgar tu cuenta.</p>
+              <div class="card-meta"><span>📅 01 Abr 2026</span><span>📖 7 min</span></div>
+              <span class="read-more">Leer artículo</span>
+            </div>
+          </a>
+
+          <!-- ═══ ARTÍCULO 16 ════════════════════════════════════
+               Tema: Roblox Studio scripting Luau desde cero
+               Long-tail: "aprender scripting luau roblox studio desde cero 2026"
+          ══════════════════════════════════════════════════════ -->
+          <a href="articulo-16-scripting-luau-principiantes.html" class="article-card" role="listitem">
+            <img
+              src="img/articulo-16.jpg"
+              alt="Aprende scripting en Luau para Roblox Studio desde cero 2026"
+              class="card-img"
+              width="400" height="160"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <span class="card-cat" style="color:var(--blue);">🛠️ Creación</span>
+              <h3>Scripting en Luau para Roblox Studio: guía paso a paso desde cero en 2026</h3>
+              <p class="card-excerpt">Si nunca has programado, esta guía es para ti. Variables, eventos, funciones y tu primer script funcional explicados con ejemplos prácticos dentro de Roblox Studio sin experiencia previa.</p>
+              <div class="card-meta"><span>📅 01 Abr 2026</span><span>📖 11 min</span></div>
+              <span class="read-more">Leer artículo</span>
+            </div>
+          </a>
+
+          <!-- ═══ ARTÍCULO 17 ════════════════════════════════════
+               Tema: Análisis actualización Blox Fruits Update 23
+               Long-tail: "blox fruits update 23 que hay nuevo analisis"
+          ══════════════════════════════════════════════════════ -->
+          <a href="articulo-17-blox-fruits-update-23.html" class="article-card" role="listitem">
+            <img
+              src="img/articulo-17.jpg"
+              alt="Análisis completo de la Update 23 de Blox Fruits en Roblox"
+              class="card-img"
+              width="400" height="160"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <span class="card-cat" style="color:var(--red);">🆕 Actualizaciones</span>
+              <h3>Blox Fruits Update 23: todo lo nuevo, la fruta secreta y cómo afecta al meta del PvP</h3>
+              <p class="card-excerpt">Analizamos cada cambio de la Update 23: nueva fruta mítica, isla explorable, ajustes de balance en combate y qué builds siguen siendo viables para el Tercer Mar después del parche.</p>
+              <div class="card-meta"><span>📅 31 Mar 2026</span><span>📖 9 min</span></div>
+              <span class="read-more">Leer artículo</span>
+            </div>
+          </a>
+
+          <!-- ═══ ARTÍCULO 18 ════════════════════════════════════
+               Tema: Murder Mystery 2 — guía de roles y estrategias
+               Long-tail: "guia murder mystery 2 roblox como ganar siendo sheriff asesino inocente"
+          ══════════════════════════════════════════════════════ -->
+          <a href="articulo-18-guia-murder-mystery-2.html" class="article-card" role="listitem">
+            <img
+              src="img/articulo-18.jpg"
+              alt="Guía completa de Murder Mystery 2 en Roblox estrategias y roles"
+              class="card-img"
+              width="400" height="160"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <span class="card-cat" style="color:var(--yellow);">🔪 Estrategia</span>
+              <h3>Murder Mystery 2: cómo ganar en cada rol, las mejores armas y dónde encontrar los knifes más raros</h3>
+              <p class="card-excerpt">Estrategias detalladas para Sheriff, Inocente y Asesino. Qué mapas favorecen a cada rol, cómo acumular monedas para los knifes más valiosos y los errores que cometen los jugadores nuevos.</p>
+              <div class="card-meta"><span>📅 30 Mar 2026</span><span>📖 8 min</span></div>
+              <span class="read-more">Leer artículo</span>
+            </div>
+          </a>
+
+          <!-- ═══ ARTÍCULO 19 ════════════════════════════════════
+               Tema: Cómo crear tu propio juego de obby en Roblox Studio
+               Long-tail: "como hacer un obby en roblox studio tutorial 2026"
+          ══════════════════════════════════════════════════════ -->
+          <a href="articulo-19-crear-obby-roblox-studio.html" class="article-card" role="listitem">
+            <img
+              src="img/articulo-19.jpg"
+              alt="Cómo crear un obby en Roblox Studio tutorial completo 2026"
+              class="card-img"
+              width="400" height="160"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <span class="card-cat" style="color:var(--blue);">🛠️ Creación</span>
+              <h3>Cómo crear tu propio obby en Roblox Studio desde cero: tutorial completo con checkpoints y monetización</h3>
+              <p class="card-excerpt">Construye un obby funcional y publicable en menos de un fin de semana. Diseño de plataformas, sistema de checkpoints, música ambiente y cómo añadir un Game Pass para obtener Robux.</p>
+              <div class="card-meta"><span>📅 29 Mar 2026</span><span>📖 13 min</span></div>
+              <span class="read-more">Leer artículo</span>
+            </div>
+          </a>
+
+          <!-- ═══ ARTÍCULO 20 ════════════════════════════════════
+               Tema: Roblox Premium — vale la pena en 2026?
+               Long-tail: "roblox premium vale la pena 2026 beneficios comparacion"
+          ══════════════════════════════════════════════════════ -->
+          <a href="articulo-20-roblox-premium-vale-la-pena.html" class="article-card" role="listitem">
+            <img
+              src="img/articulo-20.jpg"
+              alt="Roblox Premium vale la pena en 2026 análisis de beneficios"
+              class="card-img"
+              width="400" height="160"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <span class="card-cat" style="color:var(--green);">💰 Economía</span>
+              <h3>¿Vale la pena Roblox Premium en 2026? Análisis honesto de sus beneficios y precio</h3>
+              <p class="card-excerpt">Comparamos los tres planes de Premium, calculamos el valor real de los Robux mensuales, analizamos qué juegos aprovechan el acceso exclusivo y cuándo tiene sentido económico suscribirse.</p>
+              <div class="card-meta"><span>📅 28 Mar 2026</span><span>📖 7 min</span></div>
+              <span class="read-more">Leer artículo</span>
+            </div>
+          </a>
+
+        </div><!-- /articles-grid -->
+
+        <!-- ═══ PAGINACIÓN ═════════════════════════════════════ -->
+        <div class="pagination-container" role="navigation" aria-label="Paginación del blog">
+          <a href="index.html"   class="page-btn prev-btn" aria-label="Página anterior (Página 1)">«</a>
+          <a href="index.html"   class="page-btn" aria-label="Ir a la página 1">1</a>
+          <span class="page-btn active" aria-current="page" aria-label="Página actual: 2">2</span>
+          <a href="index-3.html" class="page-btn" aria-label="Ir a la página 3">3</a>
+          <a href="index-4.html" class="page-btn" aria-label="Ir a la página 4">4</a>
+          <a href="index-5.html" class="page-btn" aria-label="Ir a la página 5">5</a>
+          <span class="page-dots" aria-hidden="true">…</span>
+          <a href="index-9.html" class="page-btn" aria-label="Ir a la última página (9)">9</a>
+          <a href="index-3.html" class="page-btn next-btn" aria-label="Siguiente página (Página 3)">»</a>
+        </div>
+        <!-- /paginación -->
+
+      </div><!-- /col artículos -->
+
+      <!-- ═══ SIDEBAR — idéntico al de index.html ═════════════ -->
+      <aside class="sidebar" aria-label="Barra lateral">
+
+        <div class="sw">
+          <div class="sw-head">🏆 Top Juegos Ahora</div>
+          <div class="sw-body">
+            <div class="tg-item">
+              <div class="tg-rank">1</div><div class="tg-icon">⚔️</div>
+              <div class="tg-info"><div class="tg-name">Blox Fruits</div><div class="tg-players">● 4.2M jugando</div></div>
+              <span class="tg-change up">▲12%</span>
+            </div>
+            <div class="tg-item">
+              <div class="tg-rank">2</div><div class="tg-icon">🏠</div>
+              <div class="tg-info"><div class="tg-name">Brookhaven RP</div><div class="tg-players">● 2.8M jugando</div></div>
+              <span class="tg-change up">▲5%</span>
+            </div>
+            <div class="tg-item">
+              <div class="tg-rank">3</div><div class="tg-icon">🐾</div>
+              <div class="tg-info"><div class="tg-name">Adopt Me!</div><div class="tg-players">● 2.1M jugando</div></div>
+              <span class="tg-change down">▼3%</span>
+            </div>
+            <div class="tg-item">
+              <div class="tg-rank">4</div><div class="tg-icon">🍓</div>
+              <div class="tg-info"><div class="tg-name">Berry Avenue</div><div class="tg-players">● 1.6M jugando</div></div>
+              <span class="tg-change up">▲18%</span>
+            </div>
+            <div class="tg-item">
+              <div class="tg-rank">5</div><div class="tg-icon">💀</div>
+              <div class="tg-info"><div class="tg-name">Murder Mystery 2</div><div class="tg-players">● 1.5M jugando</div></div>
+              <span class="tg-change up">▲8%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sw">
+          <div class="sw-head">🎪 Próximos Eventos</div>
+          <div class="sw-body">
+            <div class="ev-item">
+              <div class="ev-date"><div class="ev-day">10</div><div class="ev-mon">Abr</div></div>
+              <div><div class="ev-title">Egg Hunt 2026 — Fase 2</div><div class="ev-desc">Nuevos mapas y huevos legendarios</div></div>
+            </div>
+            <div class="ev-item">
+              <div class="ev-date"><div class="ev-day">15</div><div class="ev-mon">Abr</div></div>
+              <div><div class="ev-title">RDC 2026</div><div class="ev-desc">Conferencia anual de desarrolladores</div></div>
+            </div>
+            <div class="ev-item">
+              <div class="ev-date"><div class="ev-day">01</div><div class="ev-mon">May</div></div>
+              <div><div class="ev-title">Roblox Creator Awards</div><div class="ev-desc">Premios a los mejores juegos del año</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sw">
+          <div class="sw-head">🔥 Más Leídos</div>
+          <div class="sw-body">
+            <a href="articulo-5-codigos.html"       class="rel-item">
+              <div class="rel-num rel-num--1">1</div>
+              <div><div class="rel-title">Promo Codes activos: cómo canjearlos en 2026</div><div class="rel-cat">Códigos</div></div>
+            </a>
+            <a href="articulo-3-seguridad.html"     class="rel-item">
+              <div class="rel-num rel-num--2">2</div>
+              <div><div class="rel-title">Cómo proteger tu cuenta de Roblox</div><div class="rel-cat">Seguridad</div></div>
+            </a>
+            <a href="articulo-11-guia-blox-fruits.html" class="rel-item">
+              <div class="rel-num rel-num--3">3</div>
+              <div><div class="rel-title">Guía completa de Blox Fruits 2026</div><div class="rel-cat">Guías</div></div>
+            </a>
+            <a href="articulo-15-robux-gratis-legitimo.html" class="rel-item">
+              <div class="rel-num rel-num--4">4</div>
+              <div><div class="rel-title">Cómo conseguir Robux gratis de forma legítima</div><div class="rel-cat">Robux</div></div>
+            </a>
+            <a href="articulo-20-roblox-premium-vale-la-pena.html" class="rel-item">
+              <div class="rel-num rel-num--5">5</div>
+              <div><div class="rel-title">¿Vale la pena Roblox Premium en 2026?</div><div class="rel-cat">Economía</div></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="ad-slot" style="margin:0;" aria-label="Publicidad">
+          <!-- AdSense: reemplaza con tu etiqueta <ins class="adsbygoogle"> -->
+          <p>[ Google AdSense — 300×250 ]</p>
+        </div>
+
+      </aside>
+    </div><!-- /content-layout -->
+  </div><!-- /container -->
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     TRENDING — artículos de ESTA página para cross-linking
+══════════════════════════════════════════════════════════════ -->
+<section aria-labelledby="trending-p2" style="padding:0 0 16px;">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="trending-p2">Destacados de esta Página</h2>
+      <span class="s-tag">🔥 Top 5</span>
+    </div>
+    <div class="trending-grid">
+      <a href="articulo-11-guia-blox-fruits.html"         class="trend-card"><div class="trend-num">1</div><div class="trend-cat">Guías</div><h3>Guía completa de Blox Fruits 2026: Mar 3 y frutas</h3></a>
+      <a href="articulo-13-juegos-terror-roblox.html"     class="trend-card"><div class="trend-num">2</div><div class="trend-cat">Terror</div><h3>Los 10 mejores juegos de terror en Roblox 2026</h3></a>
+      <a href="articulo-15-robux-gratis-legitimo.html"    class="trend-card"><div class="trend-num">3</div><div class="trend-cat">Robux</div><h3>Consigue Robux gratis de forma legítima sin generadores</h3></a>
+      <a href="articulo-16-scripting-luau-principiantes.html" class="trend-card"><div class="trend-num">4</div><div class="trend-cat">Creación</div><h3>Scripting en Luau desde cero: guía paso a paso 2026</h3></a>
+      <a href="articulo-20-roblox-premium-vale-la-pena.html"  class="trend-card"><div class="trend-num">5</div><div class="trend-cat">Economía</div><h3>¿Vale la pena Roblox Premium? Análisis honesto 2026</h3></a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     FOOTER — idéntico al de index.html
+══════════════════════════════════════════════════════════════ -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-container">
+    <div class="footer-col footer-brand">
+      <a href="index.html" class="footer-logo-link">
+        <img src="img/logo.png" alt="RBLXNews Logo" class="footer-logo-img" />
+      </a>
+      <p class="footer-tagline">Tu portal independiente de<br>noticias y guías sobre Roblox<br>en español.</p>
+      <p class="footer-disclaimer">No afiliado con Roblox Corporation.</p>
+    </div>
+    <div class="footer-col">
+      <h4 class="footer-col-title">Artículos</h4>
+      <ul class="footer-links-list">
+        <li><a href="articulo-5-codigos.html">Promo Codes</a></li>
+        <li><a href="articulo-7-eventos.html">Eventos 2026</a></li>
+        <li><a href="articulo-4-avatares.html">Avatares Gratis</a></li>
+        <li><a href="articulo-1-roleplay.html">Guía de Roleplay</a></li>
+        <li><a href="articulo-3-seguridad.html">Seguridad</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 class="footer-col-title">Más Contenido</h4>
+      <ul class="footer-links-list">
+        <li><a href="articulo-2-roblox-studio.html">Roblox Studio 2026</a></li>
+        <li><a href="articulo-6-optimizacion.html">Optimización FPS</a></li>
+        <li><a href="articulo-8-avatar.html">Avatar Premium</a></li>
+        <li><a href="articulo-9-monetizacion.html">Ganar Dinero</a></li>
+        <li><a href="articulo-10-futuro.html">Futuro de Roblox</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 class="footer-col-title">El Portal</h4>
+      <ul class="footer-links-list">
+        <li><a href="about.html">Sobre Nosotros</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+        <li><a href="privacy.html">Política de Privacidad</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 RBLXNews · Sitio independiente, no afiliado con Roblox Corporation</span>
+    <nav class="footer-bottom-links" aria-label="Legal">
+      <a href="about.html">Sobre Nosotros</a>
+      <a href="privacy.html">Privacidad</a>
+      <a href="contact.html">Contacto</a>
+    </nav>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════════════════════
+     COOKIE CONSENT
+══════════════════════════════════════════════════════════════ -->
+<div id="cookie-banner" role="dialog" aria-label="Aviso de cookies" aria-live="polite">
+  <p class="cookie-text">
+    <strong>🍪 Aviso de cookies.</strong> Usamos cookies propias y de <strong>Google AdSense</strong>
+    para publicidad relevante. Al navegar aceptas su uso según nuestra
+    <a href="privacy.html">Política de Privacidad</a>.
+  </p>
+  <div class="cookie-btns">
+    <button class="btn-reject" id="cookie-reject">Solo esenciales</button>
+    <button class="btn-accept" id="cookie-accept">Aceptar todo</button>
+  </div>
+</div>
+
+<script src="theme.js"></script>
+<script>
+(function(){
+  var b=document.getElementById('cookie-banner'),K='rblxnews_consent';
+  try{if(localStorage.getItem(K))b.classList.add('hidden');}catch(e){}
+  document.getElementById('cookie-accept').onclick=function(){
+    try{localStorage.setItem(K,'accepted');}catch(e){}b.classList.add('hidden');
+  };
+  document.getElementById('cookie-reject').onclick=function(){
+    try{localStorage.setItem(K,'rejected');}catch(e){}b.classList.add('hidden');
+  };
+})();
+</script>
+</body>
+</html>
