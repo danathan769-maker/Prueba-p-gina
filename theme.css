@@ -733,3 +733,12 @@ html.dark .callout { background: rgba(21,101,192,.1); }
   .kr-grid { grid-template-columns: 1fr; }
   .kr-card-img { height: 180px; }
 }
+<div class="pagination-container">
+  <a href="index.html" class="page-btn prev-btn" aria-label="Página anterior">«</a>
+  <a href="index.html" class="page-btn">1</a>
+  <span class="page-btn active" aria-current="page">2</span>
+  <a href="index-3.html" class="page-btn">3</a>
+  <span class="page-dots">...</span>
+  <a href="index-9.html" class="page-btn">9</a>
+  <a href="index-3.html" class="page-btn next-btn" aria-label="Siguiente página">»</a>
+</div>
